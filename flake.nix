@@ -97,7 +97,7 @@
               version = "latest";
 
               src = pkgs.fetchurl {
-                url = "https://github.com/JonasKruckenberg/buck2/releases/download/latest/buck2-${info.target}.zst";
+                url = "https://github.com/JonasKruckenberg/buck2/releases/download/2026-07-28/buck2-${info.target}.zst";
                 hash = info.hash;
               };
 
@@ -144,7 +144,7 @@
               version = "latest";
 
               src = pkgs.fetchurl {
-                url = "https://github.com/JonasKruckenberg/buck2/releases/download/latest/rust-project-${info.target}.zst";
+                url = "https://github.com/JonasKruckenberg/buck2/releases/download/2026-07-28/rust-project-${info.target}.zst";
                 hash = info.hash;
               };
 
